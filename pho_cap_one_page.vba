@@ -7,7 +7,7 @@ Sub GetRowHeights()
   
 
   ' Set the range of rows to check
-  For table = 0 To 100
+  For table = 101 To 200
     If table = 0 Then
         index = 1
     Else
@@ -90,6 +90,7 @@ Sub GetRowHeights()
     index = index + 1
     Rows(index).RowHeight = 19.75
     index = index + 1
+    Rows(index).RowHeight = 19.75
     Next table
   '11.25 x
   '11,25x
